@@ -1,5 +1,52 @@
-h1 {
+body {
+  background-image: url("images/space.jpg");
+  height: 100vh;
+  margin: 0px
+}
+
+
+
+#navBarBtn {
+  border-radius: 7px;
+  border: 2px solid rgb(152, 8, 140);
+  font-weight: 800;
+  transform: rotate(90deg);
+  font-size: 45px;
+  height: 100px;
+  width: 100px;
+  padding-bottom: 5px;
+  background: black;
+  color: purple;
+}
+
+#navBarBtn:hover {
+  box-shadow: 0px 0px 15px purple;
+}
+
+#dropDownOne {
+  opacity: 0;
+}
+
+#dropDownTwo {
+  opacity: 0;
+}
+
+.navBtns {
+  background: black;
+  color: purple;
   text-align: center;
-  font-size: 50px;
-  text-decoration: underline;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid purple;
+  transition: 0.3s;
+  font-size: 17px;
+  font-weight: 800;
+  width: 100px;
+  margin-top: 10px
+}
+
+.navBtns:hover {
+  box-shadow: 0px 0px 15px purple;
+  transition: 0s;
 }
